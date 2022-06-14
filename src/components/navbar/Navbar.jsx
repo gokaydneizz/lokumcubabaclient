@@ -18,7 +18,7 @@ const Navbarr = () => {
   return (
     <Navbar collapseOnSelect expand='lg' bg='dark' variant='dark'>
       <Container>
-        <Navbar.Brand href='/'>Lokumcu Baba</Navbar.Brand>
+        <Navbar.Brand href='/'>Lokumcu baba</Navbar.Brand>
         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
         <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav className='me-auto'>

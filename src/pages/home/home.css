@@ -3,3 +3,16 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  position: relative;
+}
+
+.imgBox {
+  margin: auto;
+}
+
+.imginnav {
+  width: 100%;
+  z-index: 10000;
+}
