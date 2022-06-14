@@ -7,13 +7,7 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <div className='imgBox'>
-        <img
-          className='imginnav img-fluid'
-          src='https://i.hizliresim.com/8ddy7q8.jpg'
-          alt=''
-        />
-      </div>
+
       <Header />
 
       <Footer />

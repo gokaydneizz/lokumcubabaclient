@@ -54,7 +54,7 @@ const Header = () => {
             </Button>{' '}
           </div>
 
-          <div className='col-5'>
+          <div className='col-5 mb-5'>
             <img
               src='https://www.mevlanakuruyemis.com/wp-content/uploads/2020/12/s-78517b7af25b973e546e60ee58369f0e8ec0edf3.jpg'
               alt=''
