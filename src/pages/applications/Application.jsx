@@ -154,9 +154,6 @@ const Applications = () => {
           Başvur
         </button>
       </div>
-      <div className='footerDiv'>
-        <Footer />
-      </div>
     </div>
   );
 };

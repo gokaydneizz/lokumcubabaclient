@@ -56,9 +56,6 @@ const Adminapplication = () => {
       ) : (
         <h1>YOU NEED TO LOG IN TO SEE THIS PAGE!</h1>
       )}
-      <div className='footeerDiv'>
-        <Footer />
-      </div>
     </div>
   );
 };

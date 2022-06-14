@@ -5,13 +5,15 @@ const Header = () => {
   return (
     <>
       <div className='container'>
+        <div className='row col-12'>
+          <img src='https://i.hizliresim.com/8ddy7q8.jpg' alt='' />
+        </div>
         <div className='row mt-5'>
           <div className='col-5'>
             <img
               src='https://www.imagelato.com/images/article-cover-restaurant-staff-list-e9d70f7c-1024w.jpg'
               alt=''
-              width='100'
-              className='img-fluid img-thumbnail'
+              className='img-fluid newImg img-thumbnail'
             />
           </div>
           <div className='col-7'>
@@ -32,7 +34,7 @@ const Header = () => {
             </p>
           </div>
         </div>
-        <div className='row mt-5'>
+        <div className='row mt-5 '>
           <div className='col-7'>
             <h1>Lorem ipsum dolor sit amet,</h1>
             <p>
@@ -54,7 +56,7 @@ const Header = () => {
             </Button>{' '}
           </div>
 
-          <div className='col-5 mb-5'>
+          <div className='col-5'>
             <img
               src='https://www.mevlanakuruyemis.com/wp-content/uploads/2020/12/s-78517b7af25b973e546e60ee58369f0e8ec0edf3.jpg'
               alt=''
