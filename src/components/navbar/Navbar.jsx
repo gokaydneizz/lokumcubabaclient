@@ -31,7 +31,11 @@ const Navbarr = () => {
               </Nav.Link>
             ) : (
               <Nav.Link>
-                <Button onClick={handleLogOut} variant='danger'>
+                <span> Hoşgeldiniz {user.username}</span>
+                <Button
+                  className='adminspn'
+                  onClick={handleLogOut}
+                  variant='danger'>
                   Çıkış
                 </Button>{' '}
               </Nav.Link>

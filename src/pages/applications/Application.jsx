@@ -3,6 +3,8 @@ import './applications.css';
 import axios from 'axios';
 import {useNavigate} from 'react-router-dom';
 import Navbarr from '../../components/navbar/Navbar';
+import {useContext} from 'react';
+import {AuthContext} from '../../context/AuthContext';
 
 const Applications = () => {
   const [inputs, setInputs] = useState({
@@ -18,6 +20,8 @@ const Applications = () => {
     amountOfInvestment: undefined,
     anythingMore: undefined,
   });
+
+  const {user} = useContext(AuthContext);
 
   const navigate = useNavigate();
 
