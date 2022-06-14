@@ -5,6 +5,7 @@ import {useNavigate} from 'react-router-dom';
 import Navbarr from '../../components/navbar/Navbar';
 import {useContext} from 'react';
 import {AuthContext} from '../../context/AuthContext';
+import Footer from '../../components/footer/Footer';
 
 const Applications = () => {
   const [inputs, setInputs] = useState({
@@ -149,10 +150,11 @@ const Applications = () => {
           </div>
         </div>
 
-        <button onClick={handlePost} className='button'>
+        <button onClick={handlePost} className='button mb-5'>
           Başvur
         </button>
       </div>
+      <Footer />
     </div>
   );
 };

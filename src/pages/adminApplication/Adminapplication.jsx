@@ -3,6 +3,7 @@ import Navbarr from '../../components/navbar/Navbar';
 import Table from 'react-bootstrap/Table';
 import useFetch from '../../hooks/useFetch';
 import {AuthContext} from '../../context/AuthContext';
+import Footer from '../../components/footer/Footer';
 const Adminapplication = () => {
   const {data, loading, error} = useFetch(`/admin/application`);
   const {user} = useContext(AuthContext);
@@ -55,6 +56,8 @@ const Adminapplication = () => {
       ) : (
         <h1>YOU NEED TO LOG IN TO SEE THIS PAGE!</h1>
       )}
+
+      <Footer />
     </div>
   );
 };
