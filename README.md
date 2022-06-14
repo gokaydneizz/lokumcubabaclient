@@ -4,7 +4,7 @@ Kullanılan front end teknolojileri : Bootstrap,react.js,CSS,HTML,vanilla JS
 
 Bu projeyi olabildiğince hızlı bitirmek istediğim için mutlaka hatalar olacaktır.Fakat uygulamamı kısaca açıklamam gerekirse,fotoğraflarda gördüğünüz giriş sayfamız açılma sayfamızdır.Eğer "Şube başvuru formu için tıkla!" yazan butona basarsanız fotoğraflarda görebileceğiniz başvuru formu önünüze çıkar.Eğer admin giriş panel butonuna tıklar iseniz admin giriş paneline yönlendirilmiş olursunuz.Buradaki giriş yapma işlemi simüle değil,gerçekten de giriş yapılması gereken bir kullanıcıdır ve veri tabanında kayıtlıdır.Authentication,authorization yapılmıştır.Bunu JSONWEBTOKEN yardımı ile yaptım.Admin paneline giriş yaptıktan sonra sadece adminlerin görebileceği,gönderilmiş olan başvurular olan,fotoğraflarda adminpanel olarak göreceğiniz sisteme yönlendirilirsiniz.Bir çok ekleme yapılabilir fakat olduğunca sade bırakmak istedim.
 
-Son guncellemede admin panelde ufak bi degisiklik yaptim ve admin var ise sag kosede hosgeldiniz olarak kullanici adi yaziyor ve her sayfaya footer eklendi,footer dolayisiyla kodlar bozuluyordu,footer kodlari guncellendi,lokumcu baba fotografi yuklendi.
+Son guncellemede admin panelde ufak bi degisiklik yaptim ve admin var ise sag kosede hosgeldiniz olarak kullanici adi yaziyor ve her sayfaya footer eklendi,footer dolayisiyla kodlar bozuluyordu,footer kodlari guncellendi,lokumcu baba fotografi yuklendi,giris sayfasi guncellendi.
 
 
 # Getting Started with Create React App
